@@ -3,6 +3,8 @@ using Abp.Zero.EntityFrameworkCore;
 using ABPCoreLearning.Authorization.Roles;
 using ABPCoreLearning.Authorization.Users;
 using ABPCoreLearning.MultiTenancy;
+using ABPCoreLearning.PhoneBooks.Persons;
+using ABPCoreLearning.PhoneBooks.PhoneNumbers;
 
 namespace ABPCoreLearning.EntityFrameworkCore
 {
@@ -13,6 +15,16 @@ namespace ABPCoreLearning.EntityFrameworkCore
         public ABPCoreLearningDbContext(DbContextOptions<ABPCoreLearningDbContext> options)
             : base(options)
         {
+        }
+
+        public DbSet<Person> Persons { get; set; }
+        public DbSet<PhoneNumber> PhoneNumbers { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Person>().ToTable("Person","PB");
+            modelBuilder.Entity<PhoneNumber>().ToTable("PhoneNumber", "PB");
+            base.OnModelCreating(modelBuilder);
         }
     }
 }

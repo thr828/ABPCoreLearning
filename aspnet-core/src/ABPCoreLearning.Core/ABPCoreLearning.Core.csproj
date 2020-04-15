@@ -19,7 +19,4 @@
     <PackageReference Include="Abp.ZeroCore.EntityFrameworkCore" Version="5.4.0" />
     <PackageReference Include="Castle.Windsor.MsDependencyInjection" Version="3.3.1" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="PhoneBooks\PhoneNumbers\" />
-  </ItemGroup>
 </Project>
