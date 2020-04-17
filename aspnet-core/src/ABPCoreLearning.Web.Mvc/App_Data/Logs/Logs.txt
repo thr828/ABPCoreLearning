@@ -5819,3 +5819,458 @@ DEBUG 2020-04-15 21:15:52,720 [85   ] Abp.Modules.AbpModuleManager             -
 INFO  2020-04-15 21:15:52,727 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
 INFO  2020-04-15 21:15:52,728 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
 INFO  2020-04-15 21:15:52,728 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 34.4904ms 200 application/json
+DEBUG 2020-04-17 22:38:59,007 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-04-17 22:38:59,224 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-04-17 22:38:59,237 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ABPCoreLearning.Web.Startup.ABPCoreLearningWebMvcModule, ABPCoreLearning.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-17 22:38:59,239 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ABPCoreLearning.ABPCoreLearningWebCoreModule, ABPCoreLearning.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-17 22:38:59,239 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ABPCoreLearning.ABPCoreLearningApplicationModule, ABPCoreLearning.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-17 22:38:59,240 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ABPCoreLearning.ABPCoreLearningCoreModule, ABPCoreLearning.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-17 22:38:59,240 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-17 22:38:59,240 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-17 22:38:59,240 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-17 22:38:59,241 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-17 22:38:59,241 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ABPCoreLearning.EntityFrameworkCore.ABPCoreLearningEntityFrameworkModule, ABPCoreLearning.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-17 22:38:59,241 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-17 22:38:59,241 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-17 22:38:59,242 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-17 22:38:59,242 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-17 22:38:59,242 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-17 22:38:59,242 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-17 22:38:59,245 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-04-17 22:38:59,366 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-04-17 22:38:59,367 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-04-17 22:38:59,367 [1    ] o.Configuration.LanguageManagementConfig - Converted ABPCoreLearning (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-04-17 22:38:59,367 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-04-17 22:38:59,765 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: ABPCoreLearning.EntityFrameworkCore.ABPCoreLearningDbContext, ABPCoreLearning.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-17 22:39:00,192 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-04-17 22:39:00,250 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-04-17 22:39:00,299 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-04-17 22:39:00,323 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ABPCoreLearning
+DEBUG 2020-04-17 22:39:00,352 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-04-17 22:39:00,404 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-04-17 22:39:00,427 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[ABPCoreLearning.MultiTenancy.Tenant, ABPCoreLearning.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[ABPCoreLearning.Authorization.Users.User, ABPCoreLearning.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-04-17 22:39:00,466 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2020-04-17 22:39:00,466 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ABPCoreLearning.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-04-17 22:39:00,471 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ABPCoreLearning.Users.Dto.CreateUserDto
+DEBUG 2020-04-17 22:39:00,471 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ABPCoreLearning.Users.Dto.UserDto
+DEBUG 2020-04-17 22:39:00,471 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ABPCoreLearning.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-04-17 22:39:00,471 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ABPCoreLearning.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-04-17 22:39:00,471 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ABPCoreLearning.Roles.Dto.PermissionDto
+DEBUG 2020-04-17 22:39:00,472 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ABPCoreLearning.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-04-17 22:39:00,472 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ABPCoreLearning.MultiTenancy.Dto.TenantDto
+DEBUG 2020-04-17 22:39:00,472 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ABPCoreLearning.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2020-04-17 22:39:00,472 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ABPCoreLearning.Web.Models.Roles.EditRoleModalViewModel
+FATAL 2020-04-17 22:39:02,015 [1    ] Abp.AbpBootstrapper                      - Microsoft.Data.SqlClient.SqlException (0x80131904): 用户 'sa' 登录失败。
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.<>c__DisplayClass26_0.<BeginTransaction>b__0(DatabaseFacade database)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c__DisplayClass12_0`2.<Execute>b__0(DbContext c, TState s)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation, Func`2 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver)
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFrameworkCore.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork, Nullable`1 multiTenancySide, String name)
+   at ABPCoreLearning.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 39
+   at ABPCoreLearning.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at ABPCoreLearning.EntityFrameworkCore.ABPCoreLearningEntityFrameworkModule.PostInitialize() in D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.EntityFrameworkCore\EntityFrameworkCore\ABPCoreLearningEntityFrameworkModule.cs:line 46
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_2(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+ClientConnectionId:58a37c42-b7d9-4757-bd27-b908b4d85e1b
+Error Number:18456,State:1,Class:14
+Microsoft.Data.SqlClient.SqlException (0x80131904): 用户 'sa' 登录失败。
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.<>c__DisplayClass26_0.<BeginTransaction>b__0(DatabaseFacade database)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c__DisplayClass12_0`2.<Execute>b__0(DbContext c, TState s)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation, Func`2 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver)
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFrameworkCore.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork, Nullable`1 multiTenancySide, String name)
+   at ABPCoreLearning.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 39
+   at ABPCoreLearning.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at ABPCoreLearning.EntityFrameworkCore.ABPCoreLearningEntityFrameworkModule.PostInitialize() in D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.EntityFrameworkCore\EntityFrameworkCore\ABPCoreLearningEntityFrameworkModule.cs:line 46
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_2(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+ClientConnectionId:58a37c42-b7d9-4757-bd27-b908b4d85e1b
+Error Number:18456,State:1,Class:14
+FATAL 2020-04-17 22:39:02,071 [1    ] Microsoft.AspNetCore.Hosting.WebHost     - Application startup exception
+Microsoft.Data.SqlClient.SqlException (0x80131904): 用户 'sa' 登录失败。
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.<>c__DisplayClass26_0.<BeginTransaction>b__0(DatabaseFacade database)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c__DisplayClass12_0`2.<Execute>b__0(DbContext c, TState s)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation, Func`2 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver)
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFrameworkCore.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork, Nullable`1 multiTenancySide, String name)
+   at ABPCoreLearning.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 39
+   at ABPCoreLearning.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at ABPCoreLearning.EntityFrameworkCore.ABPCoreLearningEntityFrameworkModule.PostInitialize() in D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.EntityFrameworkCore\EntityFrameworkCore\ABPCoreLearningEntityFrameworkModule.cs:line 46
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_2(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.InitializeAbp(IApplicationBuilder app)
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.UseAbp(IApplicationBuilder app, Action`1 optionsAction)
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.UseAbp(IApplicationBuilder app)
+   at ABPCoreLearning.Web.Startup.Startup.Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory) in D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.Web.Mvc\Startup\Startup.cs:line 71
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.Configure(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.WebHost.BuildApplication()
+ClientConnectionId:58a37c42-b7d9-4757-bd27-b908b4d85e1b
+Error Number:18456,State:1,Class:14
+WARN  2020-04-17 22:39:07,150 [9    ] Abp.BackgroundJobs.BackgroundJobManager  - Abp.AbpException: Unknown filter name: MayHaveTenant. Be sure this filter is registered before.
+   at Abp.Domain.Uow.UnitOfWorkBase.GetFilterIndex(String filterName)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetFilterParameter(String filterName, String parameterName, Object value)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetTenantId(Nullable`1 tenantId, Boolean switchMustHaveTenantEnableDisable)
+   at Abp.Domain.Uow.UnitOfWorkBase.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkManager.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobs(Int32 maxResultCount)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork_callback()
+   at Castle.Proxies.Invocations.BackgroundJobManager_DoWork.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork()
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+Abp.AbpException: Unknown filter name: MayHaveTenant. Be sure this filter is registered before.
+   at Abp.Domain.Uow.UnitOfWorkBase.GetFilterIndex(String filterName)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetFilterParameter(String filterName, String parameterName, Object value)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetTenantId(Nullable`1 tenantId, Boolean switchMustHaveTenantEnableDisable)
+   at Abp.Domain.Uow.UnitOfWorkBase.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkManager.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobs(Int32 maxResultCount)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork_callback()
+   at Castle.Proxies.Invocations.BackgroundJobManager_DoWork.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork()
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+DEBUG 2020-04-17 22:40:19,936 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-04-17 22:40:19,961 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-04-17 22:40:19,992 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ABPCoreLearning.Web.Startup.ABPCoreLearningWebMvcModule, ABPCoreLearning.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-17 22:40:19,994 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ABPCoreLearning.ABPCoreLearningWebCoreModule, ABPCoreLearning.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-17 22:40:19,994 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ABPCoreLearning.ABPCoreLearningApplicationModule, ABPCoreLearning.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-17 22:40:19,994 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ABPCoreLearning.ABPCoreLearningCoreModule, ABPCoreLearning.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-17 22:40:19,994 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-17 22:40:19,995 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-17 22:40:19,995 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-17 22:40:19,995 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-17 22:40:19,995 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ABPCoreLearning.EntityFrameworkCore.ABPCoreLearningEntityFrameworkModule, ABPCoreLearning.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-17 22:40:19,996 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-17 22:40:19,996 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-17 22:40:19,996 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-17 22:40:19,996 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-17 22:40:19,996 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-17 22:40:19,997 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-17 22:40:19,999 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-04-17 22:40:20,056 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-04-17 22:40:20,056 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-04-17 22:40:20,056 [1    ] o.Configuration.LanguageManagementConfig - Converted ABPCoreLearning (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-04-17 22:40:20,056 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-04-17 22:40:20,387 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: ABPCoreLearning.EntityFrameworkCore.ABPCoreLearningDbContext, ABPCoreLearning.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-17 22:40:20,961 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-04-17 22:40:21,053 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-04-17 22:40:21,108 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-04-17 22:40:21,140 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ABPCoreLearning
+DEBUG 2020-04-17 22:40:21,190 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-04-17 22:40:21,257 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-04-17 22:40:21,291 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[ABPCoreLearning.MultiTenancy.Tenant, ABPCoreLearning.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[ABPCoreLearning.Authorization.Users.User, ABPCoreLearning.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-04-17 22:40:21,342 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2020-04-17 22:40:21,342 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ABPCoreLearning.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-04-17 22:40:21,348 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ABPCoreLearning.Users.Dto.CreateUserDto
+DEBUG 2020-04-17 22:40:21,348 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ABPCoreLearning.Users.Dto.UserDto
+DEBUG 2020-04-17 22:40:21,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ABPCoreLearning.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-04-17 22:40:21,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ABPCoreLearning.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-04-17 22:40:21,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ABPCoreLearning.Roles.Dto.PermissionDto
+DEBUG 2020-04-17 22:40:21,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ABPCoreLearning.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-04-17 22:40:21,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ABPCoreLearning.MultiTenancy.Dto.TenantDto
+DEBUG 2020-04-17 22:40:21,350 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ABPCoreLearning.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2020-04-17 22:40:21,351 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ABPCoreLearning.Web.Models.Roles.EditRoleModalViewModel
+INFO  2020-04-17 22:40:26,719 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,zh-Hans,ja
+INFO  2020-04-17 22:40:27,383 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\op058161\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-04-17 22:42:40,148 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/  
+INFO  2020-04-17 22:42:40,726 [10   ] uthorization.DefaultAuthorizationService - Authorization failed.
+INFO  2020-04-17 22:42:40,739 [10   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was challenged.
+INFO  2020-04-17 22:42:40,758 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 612.0321ms 302 
+INFO  2020-04-17 22:42:40,889 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/Account/Login?ReturnUrl=%2F  
+INFO  2020-04-17 22:42:40,906 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ABPCoreLearning.Web.Controllers.AccountController.Login (ABPCoreLearning.Web.Mvc)'
+INFO  2020-04-17 22:42:45,516 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(System.String, System.String, System.String) on controller ABPCoreLearning.Web.Controllers.AccountController (ABPCoreLearning.Web.Mvc).
+INFO  2020-04-17 22:42:48,882 [4    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+INFO  2020-04-17 22:42:50,952 [4    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 2207.5078ms.
+INFO  2020-04-17 22:42:50,966 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action ABPCoreLearning.Web.Controllers.AccountController.Login (ABPCoreLearning.Web.Mvc) in 5448.848ms
+INFO  2020-04-17 22:42:50,969 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ABPCoreLearning.Web.Controllers.AccountController.Login (ABPCoreLearning.Web.Mvc)'
+INFO  2020-04-17 22:42:51,001 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 10111.6449ms 200 text/html; charset=utf-8
+INFO  2020-04-17 22:42:51,239 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/libs/font-awesome/css/all.min.css?v=-N4_V_SbAFiW1MPBCXnfnP9QSN3-Keu-NlB-0ev_YKQ  
+INFO  2020-04-17 22:42:51,249 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/libs/icheck-bootstrap/icheck-bootstrap.css?v=nGN1DgpDTrAS3DS7E5J0cL-gblWBKAMSoU_LSuY8gu8  
+INFO  2020-04-17 22:42:51,249 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/libs/admin-lte/dist/css/adminlte.min.css?v=tDEOZyJ9BuKWB-BOSc6dE4cI0uNznodJMx11eWZ7jJ4  
+INFO  2020-04-17 22:42:51,251 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/libs/toastr/toastr.css?v=He3QEBKoL_nMXlVsoM7S2C2kjFQqS5L-mgA-F8LpG-U  
+INFO  2020-04-17 22:42:51,257 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/libs-ext/famfamfam-flags/dist/sprite/famfamfam-flags.min.css?v=D9O-28vCF-qJh2qZSFIXxXc30hTED8RmnKeZRyvVEpA  
+INFO  2020-04-17 22:42:51,258 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/libs/animate.css/animate.css?v=gVCm5mRCmW9kVgsSjQ7_5TLtXqvfCoxhdsjE6O1QLm8  
+INFO  2020-04-17 22:42:51,308 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/icheck-bootstrap/icheck-bootstrap.css'. Physical path: 'D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.Web.Mvc\wwwroot\libs\icheck-bootstrap\icheck-bootstrap.css'
+INFO  2020-04-17 22:42:51,309 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 60.0632ms 200 text/css
+INFO  2020-04-17 22:42:51,311 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/view-resources/Views/Account/_Layout.css?v=pk1udUQR7bqKUWFxSnrnIl0MM8MH2Wu05p-zpysBQWI  
+INFO  2020-04-17 22:42:51,319 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Account/_Layout.css'. Physical path: 'D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.Web.Mvc\wwwroot\view-resources\Views\Account\_Layout.css'
+INFO  2020-04-17 22:42:51,323 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 12.0382ms 200 text/css
+INFO  2020-04-17 22:42:51,325 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/font-awesome/css/all.min.css'. Physical path: 'D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.Web.Mvc\wwwroot\libs\font-awesome\css\all.min.css'
+INFO  2020-04-17 22:42:51,326 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 89.5664ms 200 text/css
+INFO  2020-04-17 22:42:51,326 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/css/style.css?v=xKbbeRspeJ53pjKRA3Bh5ZJLItu8Y58wlf6cER1IiIk  
+INFO  2020-04-17 22:42:51,330 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/style.css'. Physical path: 'D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.Web.Mvc\wwwroot\css\style.css'
+INFO  2020-04-17 22:42:51,330 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.6573ms 200 text/css
+INFO  2020-04-17 22:42:51,330 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/libs/jquery/jquery.js?v=WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU  
+INFO  2020-04-17 22:42:51,332 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/toastr/toastr.css'. Physical path: 'D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.Web.Mvc\wwwroot\libs\toastr\toastr.css'
+INFO  2020-04-17 22:42:51,332 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 81.2356ms 200 text/css
+INFO  2020-04-17 22:42:51,332 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/libs/bootstrap/dist/js/bootstrap.bundle.js?v=pVreZ67fRaATygHF6T-gQtF1NI700W9kzeAivu6au9U  
+INFO  2020-04-17 22:42:51,332 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/libs/admin-lte/dist/js/adminlte.js?v=qXsDMEfG3xYx1TO9SCGpLfvQPdpKIo0nXVYYfcneIRk  
+INFO  2020-04-17 22:42:51,338 [26   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/admin-lte/dist/js/adminlte.js'. Physical path: 'D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.Web.Mvc\wwwroot\libs\admin-lte\dist\js\adminlte.js'
+INFO  2020-04-17 22:42:51,339 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6.7902ms 200 application/javascript
+INFO  2020-04-17 22:42:51,341 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/libs/block-ui/jquery.blockUI.js?v=oQaw-JJuUcJQ9QVYMcFnPxICDT-hv8-kuxT2FNzTGhc  
+INFO  2020-04-17 22:42:51,349 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/block-ui/jquery.blockUI.js'. Physical path: 'D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.Web.Mvc\wwwroot\libs\block-ui\jquery.blockUI.js'
+INFO  2020-04-17 22:42:51,349 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 8.0071ms 200 application/javascript
+INFO  2020-04-17 22:42:51,351 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/libs/spin/spin.js?v=GySbz3oZXNlwoawo5PpYy0iM38B-q3jyi_HLw00uxy0  
+INFO  2020-04-17 22:42:51,364 [16   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs-ext/famfamfam-flags/dist/sprite/famfamfam-flags.min.css'. Physical path: 'D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.Web.Mvc\wwwroot\libs-ext\famfamfam-flags\dist\sprite\famfamfam-flags.min.css'
+INFO  2020-04-17 22:42:51,364 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/animate.css/animate.css'. Physical path: 'D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.Web.Mvc\wwwroot\libs\animate.css\animate.css'
+INFO  2020-04-17 22:42:51,364 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 106.3446ms 200 text/css
+INFO  2020-04-17 22:42:51,364 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 106.9214ms 200 text/css
+INFO  2020-04-17 22:42:51,371 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/spin/spin.js'. Physical path: 'D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.Web.Mvc\wwwroot\libs\spin\spin.js'
+INFO  2020-04-17 22:42:51,372 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 21.2701ms 200 application/javascript
+INFO  2020-04-17 22:42:51,380 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/libs/sweetalert/sweetalert.min.js?v=KsRuvuRtUVvobe66OFtOQfjP8WA2SzYsmm4VPfMnxms  
+INFO  2020-04-17 22:42:51,380 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/libs-ext/spin/jquery.spin.js?v=EG38bUU5b2M64hy9cNAzu_cQBEsiBYsDifOcoHqNd2k  
+INFO  2020-04-17 22:42:51,380 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/libs/toastr/toastr.min.js?v=yNbKY1y6h2rbVcQtf0b8lq4a-xpktyFc3pSYoGAY1qQ  
+INFO  2020-04-17 22:42:51,393 [31   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/jquery/jquery.js'. Physical path: 'D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.Web.Mvc\wwwroot\libs\jquery\jquery.js'
+INFO  2020-04-17 22:42:51,393 [29   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs-ext/spin/jquery.spin.js'. Physical path: 'D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.Web.Mvc\wwwroot\libs-ext\spin\jquery.spin.js'
+INFO  2020-04-17 22:42:51,393 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/toastr/toastr.min.js'. Physical path: 'D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.Web.Mvc\wwwroot\libs\toastr\toastr.min.js'
+INFO  2020-04-17 22:42:51,393 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/admin-lte/dist/css/adminlte.min.css'. Physical path: 'D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.Web.Mvc\wwwroot\libs\admin-lte\dist\css\adminlte.min.css'
+INFO  2020-04-17 22:42:51,394 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 13.0588ms 200 application/javascript
+INFO  2020-04-17 22:42:51,394 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 13.081ms 200 application/javascript
+INFO  2020-04-17 22:42:51,394 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js?v=MEOC0fqxBbFCeeJ6VHFuw8-2C710gCRqjbvYcHoBdHU  
+INFO  2020-04-17 22:42:51,394 [31   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 63.0493ms 200 application/javascript
+INFO  2020-04-17 22:42:51,394 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 144.546ms 200 text/css
+INFO  2020-04-17 22:42:51,394 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/libs/abp-web-resources/Abp/Framework/scripts/abp.js?v=3lLIPNQoGBxv9DWxtKwnvHr7Wlov-D0jo-NtjAdTenA  
+INFO  2020-04-17 22:42:51,394 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js?v=i3fsIGh0z3DXDbSa7f6TwsWonuZ8-OwELSrtH1jHbDA  
+INFO  2020-04-17 22:42:51,394 [31   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/libs/moment/moment-with-locales.js?v=dgFbqbQVzjkZPQxWd8PBtzGiRBhChc4I2wO_q_s-Xeo  
+INFO  2020-04-17 22:42:51,397 [27   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/bootstrap/dist/js/bootstrap.bundle.js'. Physical path: 'D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.Web.Mvc\wwwroot\libs\bootstrap\dist\js\bootstrap.bundle.js'
+INFO  2020-04-17 22:42:51,397 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 65.3926ms 200 application/javascript
+INFO  2020-04-17 22:42:51,397 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js'. Physical path: 'D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\libs\abp.jquery.js'
+INFO  2020-04-17 22:42:51,398 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.7933ms 200 application/javascript
+INFO  2020-04-17 22:42:51,398 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js'. Physical path: 'D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\libs\abp.toastr.js'
+INFO  2020-04-17 22:42:51,398 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.4434ms 200 application/javascript
+INFO  2020-04-17 22:42:51,398 [29   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/abp.js'. Physical path: 'D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\abp.js'
+INFO  2020-04-17 22:42:51,398 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.2848ms 200 application/javascript
+INFO  2020-04-17 22:42:51,399 [28   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/sweetalert/sweetalert.min.js'. Physical path: 'D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.Web.Mvc\wwwroot\libs\sweetalert\sweetalert.min.js'
+INFO  2020-04-17 22:42:51,399 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 19.147ms 200 application/javascript
+INFO  2020-04-17 22:42:51,399 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js?v=vMuHbqHh635SKL2RG2qsGGCDyHg1yFeGqhPKpS34g4k  
+INFO  2020-04-17 22:42:51,400 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js?v=Ta7OYgm62iNXMvVrH3f4y3WqUbGsHGBNvt0Zu0eIKtk  
+INFO  2020-04-17 22:42:51,399 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js?v=djoKib6ssm5DDzbXLe5pD7ayfFg3siaoEk-BFYzQlvI  
+INFO  2020-04-17 22:42:51,400 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/libs/jquery-validate/jquery.validate.js?v=xLhce0FUawd11QSwrvXSwST0oHhOolNoH9cUXAcsIAg  
+INFO  2020-04-17 22:42:51,400 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/libs/jquery-validate/jquery.validate.unobtrusive.js?v=XNNC8ESw29iopRLukVRazlP44TxnjGmEQanHJ5kHmtk  
+INFO  2020-04-17 22:42:51,402 [28   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js'. Physical path: 'D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\libs\abp.blockUI.js'
+INFO  2020-04-17 22:42:51,402 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js'. Physical path: 'D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\libs\abp.spin.js'
+INFO  2020-04-17 22:42:51,402 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.5662ms 200 application/javascript
+INFO  2020-04-17 22:42:51,402 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.5895ms 200 application/javascript
+INFO  2020-04-17 22:42:51,407 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/js/main.js?v=ab0QY_6mXJpXiOwBYyiynS9byjI_nh8FYG0vDebKBhE  
+INFO  2020-04-17 22:42:51,407 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/jquery-validate/jquery.validate.unobtrusive.js'. Physical path: 'D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.Web.Mvc\wwwroot\libs\jquery-validate\jquery.validate.unobtrusive.js'
+INFO  2020-04-17 22:42:51,407 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6.7606ms 200 application/javascript
+INFO  2020-04-17 22:42:51,407 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/AbpServiceProxies/GetAll?v=637227600212923270  
+INFO  2020-04-17 22:42:51,410 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/AbpScripts/GetScripts?v=637227600212923270  
+INFO  2020-04-17 22:42:51,415 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/js/main.js'. Physical path: 'D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.Web.Mvc\wwwroot\js\main.js'
+INFO  2020-04-17 22:42:51,415 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 8.6522ms 200 application/javascript
+INFO  2020-04-17 22:42:51,416 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/view-resources/Views/Account/Login.js?v=KxhHl3HYb-UQucT7TN2ewhzzgV_WwxRaGwGaSiT8xzM  
+INFO  2020-04-17 22:42:51,419 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/moment/moment-with-locales.js'. Physical path: 'D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.Web.Mvc\wwwroot\libs\moment\moment-with-locales.js'
+INFO  2020-04-17 22:42:51,419 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 24.8331ms 200 application/javascript
+INFO  2020-04-17 22:42:51,423 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-04-17 22:42:51,426 [29   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js'. Physical path: 'D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\libs\abp.sweet-alert.js'
+INFO  2020-04-17 22:42:51,426 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 26.6871ms 200 application/javascript
+INFO  2020-04-17 22:42:51,427 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/jquery-validate/jquery.validate.js'. Physical path: 'D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.Web.Mvc\wwwroot\libs\jquery-validate\jquery.validate.js'
+INFO  2020-04-17 22:42:51,427 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 27.1018ms 200 application/javascript
+INFO  2020-04-17 22:42:51,428 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-04-17 22:42:51,431 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Account/Login.js'. Physical path: 'D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.Web.Mvc\wwwroot\view-resources\Views\Account\Login.js'
+INFO  2020-04-17 22:42:51,431 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 14.5715ms 200 application/javascript
+INFO  2020-04-17 22:42:51,466 [13   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-04-17 22:42:51,485 [16   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-04-17 22:42:51,928 [13   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-04-17 22:42:51,930 [13   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 463.6824ms
+INFO  2020-04-17 22:42:51,930 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-04-17 22:42:51,932 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 524.9397ms 200 application/x-javascript
+INFO  2020-04-17 22:42:51,961 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/libs-ext/famfamfam-flags/dist/sprite/famfamfam-flags.png  
+INFO  2020-04-17 22:42:51,986 [35   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/libs/font-awesome/webfonts/fa-solid-900.woff2  
+INFO  2020-04-17 22:42:51,997 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs-ext/famfamfam-flags/dist/sprite/famfamfam-flags.png'. Physical path: 'D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.Web.Mvc\wwwroot\libs-ext\famfamfam-flags\dist\sprite\famfamfam-flags.png'
+INFO  2020-04-17 22:42:51,997 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 35.7666ms 200 image/png
+INFO  2020-04-17 22:42:52,059 [35   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/font-awesome/webfonts/fa-solid-900.woff2'. Physical path: 'D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.Web.Mvc\wwwroot\libs\font-awesome\webfonts\fa-solid-900.woff2'
+INFO  2020-04-17 22:42:52,059 [35   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 74.1262ms 200 font/woff2
+INFO  2020-04-17 22:42:52,380 [16   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-04-17 22:42:52,382 [16   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 896.7791ms
+INFO  2020-04-17 22:42:52,382 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-04-17 22:42:52,382 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 972.9732ms 200 application/x-javascript; charset=utf-8
+INFO  2020-04-17 22:42:53,223 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/img/favicon.ico  
+INFO  2020-04-17 22:42:53,325 [33   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/img/favicon.ico'. Physical path: 'D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.Web.Mvc\wwwroot\img\favicon.ico'
+INFO  2020-04-17 22:42:53,327 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 103.9666ms 200 image/x-icon
+INFO  2020-04-17 22:43:24,350 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:5000/Account/Login application/x-www-form-urlencoded 256
+INFO  2020-04-17 22:43:24,363 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ABPCoreLearning.Web.Controllers.AccountController.Login (ABPCoreLearning.Web.Mvc)'
+INFO  2020-04-17 22:43:24,384 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] Login(ABPCoreLearning.Web.Models.Account.LoginViewModel, System.String, System.String) on controller ABPCoreLearning.Web.Controllers.AccountController (ABPCoreLearning.Web.Mvc).
+INFO  2020-04-17 22:43:25,828 [9    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed in.
+INFO  2020-04-17 22:43:25,917 [9    ] tonsoftJson.NewtonsoftJsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-04-17 22:43:25,945 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action ABPCoreLearning.Web.Controllers.AccountController.Login (ABPCoreLearning.Web.Mvc) in 1560.4839ms
+INFO  2020-04-17 22:43:25,945 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ABPCoreLearning.Web.Controllers.AccountController.Login (ABPCoreLearning.Web.Mvc)'
+INFO  2020-04-17 22:43:25,946 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1596.1959ms 200 application/json; charset=utf-8
+INFO  2020-04-17 22:43:25,971 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/  
+INFO  2020-04-17 22:43:26,080 [32   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-04-17 22:43:26,081 [32   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ABPCoreLearning.Web.Controllers.HomeController.Index (ABPCoreLearning.Web.Mvc)'
+INFO  2020-04-17 22:43:26,089 [32   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller ABPCoreLearning.Web.Controllers.HomeController (ABPCoreLearning.Web.Mvc).
+INFO  2020-04-17 22:43:26,295 [9    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-04-17 22:43:28,648 [39   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 2430.461ms.
+INFO  2020-04-17 22:43:28,661 [39   ] c.Infrastructure.ControllerActionInvoker - Executed action ABPCoreLearning.Web.Controllers.HomeController.Index (ABPCoreLearning.Web.Mvc) in 2571.5073ms
+INFO  2020-04-17 22:43:28,662 [39   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ABPCoreLearning.Web.Controllers.HomeController.Index (ABPCoreLearning.Web.Mvc)'
+INFO  2020-04-17 22:43:28,664 [39   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2692.3062ms 200 text/html; charset=utf-8
+INFO  2020-04-17 22:43:28,900 [39   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/libs/datatables/css/dataTables.bootstrap4.min.css?v=F-DaKAClQut87heMIC6oThARMuWne8-WzxIDT7jXuPA  
+INFO  2020-04-17 22:43:28,910 [38   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/libs/datatables/css/responsive.bootstrap4.min.css?v=QrpUliTHPwNNlphA-wNV-zRWVltgDT6Eg0cXVAB04hI  
+INFO  2020-04-17 22:43:28,925 [34   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/libs/datatables/css/buttons.bootstrap4.min.css?v=1O-iXoRdSUgNTj7NzmW-C3dpRaxiGn1afSX-qfRCV4Q  
+INFO  2020-04-17 22:43:28,942 [39   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/css/dataTables.bootstrap4.min.css'. Physical path: 'D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.Web.Mvc\wwwroot\libs\datatables\css\dataTables.bootstrap4.min.css'
+INFO  2020-04-17 22:43:28,946 [39   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 44.0086ms 200 text/css
+INFO  2020-04-17 22:43:28,950 [38   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/css/responsive.bootstrap4.min.css'. Physical path: 'D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.Web.Mvc\wwwroot\libs\datatables\css\responsive.bootstrap4.min.css'
+INFO  2020-04-17 22:43:28,959 [38   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 57.7342ms 200 text/css
+INFO  2020-04-17 22:43:28,966 [34   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/css/buttons.bootstrap4.min.css'. Physical path: 'D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.Web.Mvc\wwwroot\libs\datatables\css\buttons.bootstrap4.min.css'
+INFO  2020-04-17 22:43:28,969 [34   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 50.2857ms 200 text/css
+INFO  2020-04-17 22:43:28,991 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/view-resources/Views/Shared/_Layout.css?v=pk1udUQR7bqKUWFxSnrnIl0MM8MH2Wu05p-zpysBQWI  
+INFO  2020-04-17 22:43:29,013 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/_Layout.css'. Physical path: 'D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.Web.Mvc\wwwroot\view-resources\Views\Shared\_Layout.css'
+INFO  2020-04-17 22:43:29,016 [34   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/libs/admin-lte/dist/img/avatar5.png  
+INFO  2020-04-17 22:43:29,016 [38   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/img/logo.png  
+INFO  2020-04-17 22:43:29,017 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 29.882ms 200 text/css
+INFO  2020-04-17 22:43:29,022 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/libs/datatables/js/dataTables.bootstrap4.min.js?v=hJ44ymhBmRPJKIaKRf3DSX5uiFEZ9xB_qx8cNbJvIMU  
+INFO  2020-04-17 22:43:29,025 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/libs/datatables/js/jquery.dataTables.min.js?v=LXQzPhL1IRyKkA7HpCOBi8I-OC8HqzHUYkjK8S-LKTs  
+INFO  2020-04-17 22:43:29,030 [32   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/js/dataTables.bootstrap4.min.js'. Physical path: 'D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.Web.Mvc\wwwroot\libs\datatables\js\dataTables.bootstrap4.min.js'
+INFO  2020-04-17 22:43:29,032 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 10.0351ms 200 application/javascript
+INFO  2020-04-17 22:43:29,033 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/libs/datatables/js/dataTables.responsive.min.js?v=7Tbik5KSODuGiOLIOFfhP47p5UK6h1wzw8CFSI_TKhc  
+INFO  2020-04-17 22:43:29,035 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/libs/datatables/js/responsive.bootstrap4.min.js?v=aXVO47Rb7s58FhMTCwbM39en_1XcmzGkClRzBe5txKs  
+INFO  2020-04-17 22:43:29,038 [42   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/js/jquery.dataTables.min.js'. Physical path: 'D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.Web.Mvc\wwwroot\libs\datatables\js\jquery.dataTables.min.js'
+INFO  2020-04-17 22:43:29,040 [42   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 14.9794ms 200 application/javascript
+INFO  2020-04-17 22:43:29,045 [42   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/libs/datatables/js/dataTables.buttons.js?v=5QXxQoJP_O_KTBOFw8kshfIczGGlmZRcR_WjhFKbiZY  
+INFO  2020-04-17 22:43:29,047 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/js/dataTables.responsive.min.js'. Physical path: 'D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.Web.Mvc\wwwroot\libs\datatables\js\dataTables.responsive.min.js'
+INFO  2020-04-17 22:43:29,047 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 14.5516ms 200 application/javascript
+INFO  2020-04-17 22:43:29,048 [32   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/js/responsive.bootstrap4.min.js'. Physical path: 'D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.Web.Mvc\wwwroot\libs\datatables\js\responsive.bootstrap4.min.js'
+INFO  2020-04-17 22:43:29,049 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 13.7807ms 200 application/javascript
+INFO  2020-04-17 22:43:29,052 [50   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/libs/datatables/js/buttons.bootstrap4.js?v=7tPJL63hI4QnZbV489_5KEpe7k6W5RzPTZkP8m6kzEE  
+INFO  2020-04-17 22:43:29,061 [45   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/js/dataTables.buttons.js'. Physical path: 'D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.Web.Mvc\wwwroot\libs\datatables\js\dataTables.buttons.js'
+INFO  2020-04-17 22:43:29,062 [45   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 16.8402ms 200 application/javascript
+INFO  2020-04-17 22:43:29,062 [50   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/js/buttons.bootstrap4.js'. Physical path: 'D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.Web.Mvc\wwwroot\libs\datatables\js\buttons.bootstrap4.js'
+INFO  2020-04-17 22:43:29,062 [50   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 11.0796ms 200 application/javascript
+INFO  2020-04-17 22:43:29,069 [34   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/admin-lte/dist/img/avatar5.png'. Physical path: 'D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.Web.Mvc\wwwroot\libs\admin-lte\dist\img\avatar5.png'
+INFO  2020-04-17 22:43:29,070 [34   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 53.6763ms 200 image/png
+INFO  2020-04-17 22:43:29,088 [38   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/img/logo.png'. Physical path: 'D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.Web.Mvc\wwwroot\img\logo.png'
+INFO  2020-04-17 22:43:29,090 [38   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 74.0158ms 200 image/png
+INFO  2020-04-17 22:43:29,097 [44   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/libs/signalr/dist/browser/signalr.js?v=s5ortbhB2C3h17nHMtXwbCSN9YncRIZH6XrFTSO9vmk  
+INFO  2020-04-17 22:43:29,115 [48   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/signalr/dist/browser/signalr.js'. Physical path: 'D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.Web.Mvc\wwwroot\libs\signalr\dist\browser\signalr.js'
+INFO  2020-04-17 22:43:29,116 [48   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 18.841ms 200 application/javascript
+INFO  2020-04-17 22:43:29,128 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.signalr-client.js?v=7OzpM5utNWYP8ne_218zbUCD3Xj_R1GqM6AzwpgQktg  
+INFO  2020-04-17 22:43:29,130 [38   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/libs/push.js/push.js?v=p73-snCYhrDo9U6USD9P19LnY1EwAe4-VzQxj_kNyBE  
+INFO  2020-04-17 22:43:29,132 [48   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/js/abp.dataTable.js?v=xzMnT_H99Te2buvjelAkXzctHHYQJ1TIGYC_0VX2fSI  
+INFO  2020-04-17 22:43:29,133 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.signalr-client.js'. Physical path: 'D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\libs\abp.signalr-client.js'
+INFO  2020-04-17 22:43:29,142 [38   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/AbpScripts/GetScripts?v=637227600212923270  
+INFO  2020-04-17 22:43:29,144 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 16.2377ms 200 application/javascript
+INFO  2020-04-17 22:43:29,146 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/AbpServiceProxies/GetAll?v=637227600212923270  
+INFO  2020-04-17 22:43:29,146 [54   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/view-resources/Views/Home/Index.js?v=K0D6HsrS69XXLRtWKoTtWGYinGZNmmZF6gpiRobQkK4  
+INFO  2020-04-17 22:43:29,146 [44   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/push.js/push.js'. Physical path: 'D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.Web.Mvc\wwwroot\libs\push.js\push.js'
+INFO  2020-04-17 22:43:29,148 [50   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/libs/chartjs/dist/Chart.js?v=nZaxPHA2uAaquixjSDX19TmIlbRNCOrf5HO1oHl5p70  
+INFO  2020-04-17 22:43:29,149 [44   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 19.2113ms 200 application/javascript
+INFO  2020-04-17 22:43:29,157 [54   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Home/Index.js'. Physical path: 'D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.Web.Mvc\wwwroot\view-resources\Views\Home\Index.js'
+INFO  2020-04-17 22:43:29,158 [54   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 11.636ms 200 application/javascript
+INFO  2020-04-17 22:43:29,200 [48   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/js/abp.dataTable.js'. Physical path: 'D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.Web.Mvc\wwwroot\js\abp.dataTable.js'
+INFO  2020-04-17 22:43:29,201 [48   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 69.4385ms 200 application/javascript
+INFO  2020-04-17 22:43:29,206 [38   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-04-17 22:43:29,209 [38   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-04-17 22:43:29,213 [52   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/chartjs/dist/Chart.js'. Physical path: 'D:\Project\ABPCoreLearning\5.4.0\ABPCoreLearning\aspnet-core\src\ABPCoreLearning.Web.Mvc\wwwroot\libs\chartjs\dist\Chart.js'
+INFO  2020-04-17 22:43:29,215 [52   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 65.7487ms 200 application/javascript
+INFO  2020-04-17 22:43:29,217 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-04-17 22:43:29,234 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-04-17 22:43:29,245 [7    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-04-17 22:43:29,245 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 10.41ms
+INFO  2020-04-17 22:43:29,246 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-04-17 22:43:29,246 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 100.4173ms 200 application/x-javascript
+INFO  2020-04-17 22:43:29,465 [7    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-04-17 22:43:29,466 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 256.3014ms
+INFO  2020-04-17 22:43:29,466 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-04-17 22:43:29,466 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 323.8746ms 200 application/x-javascript; charset=utf-8
+INFO  2020-04-17 22:43:30,223 [52   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:5000/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-04-17 22:43:30,308 [52   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-04-17 22:43:30,359 [52   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-04-17 22:43:30,360 [52   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 137.3018ms 200 application/json
+INFO  2020-04-17 22:43:30,928 [43   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5000/signalr?id=M8dTYae_IXIQzZuMNFunSQ  
+INFO  2020-04-17 22:43:30,978 [43   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-04-17 22:43:31,529 [43   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"M8dTYae_IXIQzZuMNFunSQ","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-04-17T22:43:31.4879252+08:00","Properties":{}}
+DEBUG 2020-04-17 22:43:31,563 [43   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: M8dTYae_IXIQzZuMNFunSQ
+DEBUG 2020-04-17 23:01:13,843 [91   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: M8dTYae_IXIQzZuMNFunSQ
+DEBUG 2020-04-17 23:01:13,849 [2    ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+INFO  2020-04-17 23:01:13,850 [89   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-04-17 23:01:13,853 [89   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1062924.5175ms 101 
+DEBUG 2020-04-17 23:01:13,855 [2    ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-04-17 23:01:13,855 [2    ] , Culture=neutral, PublicKeyToken=null]] - Stop background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[ABPCoreLearning.MultiTenancy.Tenant, ABPCoreLearning.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[ABPCoreLearning.Authorization.Users.User, ABPCoreLearning.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-04-17 23:01:13,857 [2    ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-04-17 23:01:13,857 [2    ] , Culture=neutral, PublicKeyToken=null]] - WaitToStop background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[ABPCoreLearning.MultiTenancy.Tenant, ABPCoreLearning.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[ABPCoreLearning.Authorization.Users.User, ABPCoreLearning.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-04-17 23:01:13,857 [2    ] Abp.Modules.AbpModuleManager             - Shutting down completed.
